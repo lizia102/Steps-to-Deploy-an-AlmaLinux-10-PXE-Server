@@ -1,6 +1,4 @@
 # Steps-to-Deploy-an-AlmaLinux-10-PXE-Server
-### Steps to Deploy an AlmaLinux 10 PXE Server  
-
 AlmaLinux 10, as a RHEL-compatible distribution, follows a similar PXE network installation process to RHEL 9. This requires configuring DHCP, TFTP services, and preparing an installation source. Below are the detailed deployment steps:  
 
 
@@ -176,6 +174,5 @@ The HTTP server hosts the AlmaLinux installation tree (ISO contents).
 
 
 ### Notes  
-- Ensure the `inst.repo` path matches the HTTP installation source (example: `http://192.168.1.100/alma10`).  
-- For architectures like IBM Power, adjust boot file paths and DHCP configurations as referenced in the original documentation.  
-- All paths and IP addresses must be modified to match your actual network environment.这条消息已经在编辑器中准备就绪。你想如何调整这篇文档?请随时告诉我。
+- Ensure the `inst.repo` path matches the HTTP installation source (example: `http://192.168.1.100/alma10`).   
+- All paths and IP addresses must be modified to match your actual network environment.
